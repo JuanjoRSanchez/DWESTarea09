@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Script DWES Tarea 08</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            @import 'estilos.css';
+        </style>
+    </head>
+    <body>
+        <header>
+            <a  href="index.php"><div><p>Trabajo con Servicios</p></div></a> 
+        </header>
+        <div id="formTesteo">
+            <form  action="?" method="GET" name="formulario" >
+                <p>Introduzca su ID</p>       
+                <input type="text" id="texto" name="texto" />
+                <br/>             
+                <br/>       
+            </form>
+            <button onclick="testeo()" >Validar ID</button>
+            <p id="respuesta"></p>
+        </div>
+    </body>
+    <script>
+        $(document).ready(function () {
+            var confirmar = confirm("La página se ha cargado correctamente \n ¿Desea salir de la página?");
+            if (!confirmar) {
+                window.close();
+            }
+            var texto = $("#texto");
+            $("form").submit(function () {
+                if (!isNaN(texto)) {
+                    true;
+                } else {
+                    false;
+                }
+            });
+        });
+        var sp = document.getElementById("respuesta");
+        sp.innerHTML = "";      
+        function testeo() {
+            var txt = document.getElementById("texto").value;
+            if (txt !== "") {
+                if (isNaN(txt)) {
+                    console.log(txt);
+                    sp.innerHTML = "Id con formato correcto";
+                } else {
+                    sp.innerHTML = "Su Id no puede contener caracteres numéricos";
+                }
+            }
+        }
+        if (isset()) {
+
+        }
+    </script>
+</html>

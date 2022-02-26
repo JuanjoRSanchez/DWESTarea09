@@ -1,0 +1,54 @@
+Search.appendIndex(
+    [
+                {
+            "fqsen": "\\conexion\u0028\u0029",
+            "name": "conexion",
+            "summary": "Funci\u00F3n\u0020que\u0020establece\u0020una\u0020conexi\u00F3n\u0020con\u0020la\u0020base\u0020de\u0020datos",
+            "url": "namespaces/default.html#function_conexion"
+        },                {
+            "fqsen": "\\getListaAutores\u0028\u0029",
+            "name": "getListaAutores",
+            "summary": "Funci\u00F3n\u0020que\u0020mediante\u0020la\u0020funci\u00F3n\u0020conexi\u00F3n\u0020establece\u0020la\u0020conexio\u00F3n\u0020y\nhace\u0020una\u0020consulta\u0020a\u0020la\u0020base\u0020de\u0020datos\u0020y\u0020en\u0020caso\u0020correcto\u0020devuleve\u0020un\u0020array\u0020con\ncon\u0020todos\u0020los\u0020autores\u0020guardados",
+            "url": "namespaces/default.html#function_getListaAutores"
+        },                {
+            "fqsen": "\\getListaLibros\u0028\u0029",
+            "name": "getListaLibros",
+            "summary": "Funci\u00F3n\u0020que\u0020mediante\u0020la\u0020funci\u00F3n\u0020conexi\u00F3n\u0020establece\u0020la\u0020conexi\u00F3n\u0020y\nhace\u0020una\u0020consulta\u0020a\u0020la\u0020base\u0020de\u0020datos\u0020y\u0020en\u0020caso\u0020correcto\u0020devuleve\u0020un\u0020array\u0020con\ncon\u0020todos\u0020los\u0020libros\u0020guardados",
+            "url": "namespaces/default.html#function_getListaLibros"
+        },                {
+            "fqsen": "\\getDatosLibro\u0028\u0029",
+            "name": "getDatosLibro",
+            "summary": "Funci\u00F3n\u0020que\u0020acepta\u0020como\u0020argumento\u0020un\u0020id\u0020de\u0020libro,\u0020hace\u0020una\u0020consulta\ny\u0020devuelve\u0020un\u0020array\u0020con\u0020los\u0020datos\u0020del\u0020libro\u0020especificado",
+            "url": "namespaces/default.html#function_getDatosLibro"
+        },                {
+            "fqsen": "\\getDatosAutor\u0028\u0029",
+            "name": "getDatosAutor",
+            "summary": "Funci\u00F3n\u0020que\u0020acepta\u0020como\u0020argumento\u0020un\u0020id\u0020de\u0020autor,\u0020hace\u0020una\u0020consulta\ny\u0020devuelve\u0020un\u0020array\u0020con\u0020los\u0020datos\u0020del\u0020autor\u0020especificado",
+            "url": "namespaces/default.html#function_getDatosAutor"
+        },                {
+            "fqsen": "\\getDatosLibroPorTitulo\u0028\u0029",
+            "name": "getDatosLibroPorTitulo",
+            "summary": "",
+            "url": "namespaces/default.html#function_getDatosLibroPorTitulo"
+        },                {
+            "fqsen": "\\cotejaLibro\u0028\u0029",
+            "name": "cotejaLibro",
+            "summary": "",
+            "url": "namespaces/default.html#function_cotejaLibro"
+        },                {
+            "fqsen": "\\cotejaAutor\u0028\u0029",
+            "name": "cotejaAutor",
+            "summary": "",
+            "url": "namespaces/default.html#function_cotejaAutor"
+        },                {
+            "fqsen": "\\cotejaAutorLibro\u0028\u0029",
+            "name": "cotejaAutorLibro",
+            "summary": "",
+            "url": "namespaces/default.html#function_cotejaAutorLibro"
+        },                {
+            "fqsen": "\\",
+            "name": "\\",
+            "summary": "",
+            "url": "namespaces/default.html"
+        }            ]
+);
